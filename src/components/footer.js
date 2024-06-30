@@ -76,17 +76,17 @@ const Footer = () => {
   useEffect(() => {
     if (process.env.NODE_ENV !== 'production') {
       return;
+      fetch('https://api.github.com/repos/1998tapan/1998tapan.github.io')
+        .then(response => response.json())
+        .then(json => {
+          const { stargazers_count, forks_count } = json;
+          setGitHubInfo({
+            stars: stargazers_count,
+            forks: forks_count,
+          });
+        })
+        .catch(e => console.error(e));
     }
-    fetch('https://api.github.com/repos/1998tapan/1998tapan.github.io')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch(e => console.error(e));
   }, []);
 
   return (
