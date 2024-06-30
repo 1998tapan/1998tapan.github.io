@@ -43,6 +43,7 @@ const StyledHeroSection = styled.section`
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
+    margin-right:20px;
   }
 `;
 
@@ -59,9 +60,9 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Namaste! My name is</h1>;
-  const two = <h2 className="big-heading">Chandrika Deb</h2>;
-  const three = <h3 className="medium-heading">MBA | Marketing Enthusiast | Freelance Blogger</h3>;
+  const one = <h1>Hello! My name is</h1>;
+  const two = <h2 className="big-heading">Tapan Dabrai</h2>;
+  const three = <h3 className="medium-heading">Full Stack Web Developer</h3>;
   const four = (
     <>
       <p>
@@ -69,28 +70,36 @@ const Hero = () => {
       </p>
 
       <p>
-        I am Chandrika Deb, an alumnus of {' '} <a href="http://www.iimrohtak.ac.in">
-        IIM Rohtak</a> {' '} and {' '} <a href="https://www.bitmesra.ac.in">BIT Mesra</a> {' '} currently spearheading impactful marketing initiatives at {' '}
-        <a href="https://www.tatasteel.com">Tata Steel</a>.
+        I am  Tapan Dabrai, a Full Stack Web Developer at  <a href="http://www.tcs.com">
+          TCS</a> with a passion for building elegant, efficient solutions to complex problems.
       </p>
 
-
       <p>
-        When not decoding the customer journey, you can find me sketching on {' '}
-        <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}
-        <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.
+        Off-screen, I read books and draw sketches on weekends and I occasionally {' '}
+        <a href="https://dabraitapan.home.blog/">blog</a>
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://chandrikadeb7.gumroad.com"
-      target="_blank"
-      rel="noreferrer">
-      Check out my products!
-    </a>
+    <>
+      <a
+        className="email-link"
+        href="https://www.linkedin.com/in/tapan-dabrai-6526a1134/"
+        target="_blank"
+        rel="noreferrer">
+        LinkedIn
+      </a>
+
+      <a
+        className="email-link"
+        href="https://github.com/1998tapan/"
+        target="_blank"
+        rel="noreferrer">
+        Github
+      </a>
+    </>
   );
+
 
   const items = [one, two, three, four, five];
 

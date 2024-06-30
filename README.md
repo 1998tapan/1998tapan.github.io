@@ -5,20 +5,12 @@
   Personal Portfolio Website
 </h1>
 <p align="center">
-  The second iteration of <a href="https://chandrikadeb7.github.io/" target="_blank">chandrikadeb7.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted using <a href="https://pages.github.com/" target="_blank">Github Pages</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/chandrikadeb7/chandrikadeb7.github.io-v1" target="_blank">Version 1</a>
+  The first iteration of <a href="https://1998tapan.github.io/" target="_blank">1998tapan.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted using <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 </p>
 
 <div align="center">
   <img alt="Demo" src="https://github.com/chandrikadeb7/chandrikadeb7.github.io/blob/code/src/images/demo.png" />
 </div>
-
-### TL;DR
-
-Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 
 ## 🛠 Installation & Set Up
 
@@ -27,19 +19,16 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    ```sh
    npm install -g gatsby-cli
    ```
-
 2. Install and use the correct version of Node (18 or 20) using [NVM](https://github.com/nvm-sh/nvm)
 
    ```sh
    nvm install --force
    ```
-
 3. Build using Gatsby
 
    ```sh
    gatsby build
    ```
-
 4. Start the development server (localhost)
 
    ```sh
@@ -53,7 +42,6 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
    ```sh
    gatsby build
    ```
-
 2. Push to production
 
    ```sh
