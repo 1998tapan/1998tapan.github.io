@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img alt="Demo" src="https://github.com/chandrikadeb7/1998tapan.github.io/blob/code/src/images/demo.png" />
+  <img alt="Demo" src="https://github.com/1998tapan/1998tapan.github.io/blob/code/src/images/demo.png" />
 </div>
 
 ## 🛠 Installation & Set Up
